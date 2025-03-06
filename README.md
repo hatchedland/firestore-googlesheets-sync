@@ -1,9 +1,6 @@
 # firestore-googlesheets-sync
 Cloud function to keep firestore and google sheet synced
 
-
-# Documentation: **`dataToSheetsFromFirestore`** Function
-
 This document details how the **`dataToSheetsFromFirestore`** Firebase Cloud Function works, as well as how it writes data to Google Sheets via the helper function **`writeToGoogleSheet`**.
 
 ---
