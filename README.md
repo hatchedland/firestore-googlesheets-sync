@@ -26,7 +26,7 @@ This document details how the **`dataToSheetsFromFirestore`** Firebase Cloud Fun
 
 ```js
 export const dataToSheetsFromFirestore = onDocumentWritten(
-  "<campaign_name>/{id}",
+  "<collection_name>/{id}",
   async (event) => {
     // 1) Grab the Document ID from Firestore
     const docId = event.params.id;
